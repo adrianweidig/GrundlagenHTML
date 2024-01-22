@@ -1,2 +1,40 @@
-# GrundlagenHTML
-Einfacher Einführungskurs in HTML
+# HTML/CSS Grundlagenkurs
+
+Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und persönlicher Retrospektive.
+
+## Inhalte
+
+### [**01_Grundlagen**](#01_grundlagen)
+- Einführung in HTML
+- HTML-Dokumentstruktur
+- Überschriften und Absätze
+- Textstile
+- CSS_Variante
+
+### [**02_LinksUndBilder**](#02_links)
+- Textlinks
+- Bildlinks
+- Einbinden von Bildern
+- Bildgalerien
+- CSS_Variante
+
+### [**04_ListenUndTabellen**](#04_listen)
+- Ungeordnete Listen
+- Geordnete Listen
+- Grundlegende Tabellenstruktur
+- Fortgeschrittene Tabellen
+- CSS_Variante
+
+### [**06_Formulare**](#06_formulare)
+- Formularelemente
+- Formularvalidierung
+- CSS_Variante
+
+### [**07_Multimedia**](#07_multimedia)
+- Einbinden von Audio
+- Einbinden von Video
+- CSS_Variante
+
+### [**08_CSS_Layouts**](#08_css_layouts)
+- Einführung in CSS Grid
+- Fortgeschrittene CSS-Layouts
