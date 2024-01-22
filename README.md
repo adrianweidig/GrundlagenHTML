@@ -4,37 +4,37 @@ Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und 
 
 ## Inhalte
 
-### [**01_Grundlagen**](#01_grundlagen)
+### [**01_Grundlagen**](../../tree/master/01_grundlagen)
 - Einführung in HTML
 - HTML-Dokumentstruktur
 - Überschriften und Absätze
 - Textstile
 - CSS_Variante
 
-### [**02_LinksUndBilder**](#02_links)
+### [**02_LinksUndBilder**](../../tree/master/02_links)
 - Textlinks
 - Bildlinks
 - Einbinden von Bildern
 - Bildgalerien
 - CSS_Variante
 
-### [**04_ListenUndTabellen**](#04_listen)
+### [**04_ListenUndTabellen**](../../tree/master/04_listen)
 - Ungeordnete Listen
 - Geordnete Listen
 - Grundlegende Tabellenstruktur
 - Fortgeschrittene Tabellen
 - CSS_Variante
 
-### [**06_Formulare**](#06_formulare)
+### [**06_Formulare**](../../tree/master/06_formulare)
 - Formularelemente
 - Formularvalidierung
 - CSS_Variante
 
-### [**07_Multimedia**](#07_multimedia)
+### [**07_Multimedia**](../../tree/master/07_multimedia)
 - Einbinden von Audio
 - Einbinden von Video
 - CSS_Variante
 
-### [**08_CSS_Layouts**](#08_css_layouts)
+### [**08_CSS_Layouts**](../../tree/master/08_css_layouts)
 - Einführung in CSS Grid
 - Fortgeschrittene CSS-Layouts
