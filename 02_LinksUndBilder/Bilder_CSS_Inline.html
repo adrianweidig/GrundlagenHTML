@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verwendung von Bildern mit CSS</title>
+    <style>
+        /* Gemeinsame CSS-Stile für alle Abschnitte */
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        /* CSS-Stile für Hover-Effekt */
+        section:hover img {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* CSS-Stile für überlagerten Text */
+        .overlay-container {
+            position: relative;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .overlay-container:hover .overlay-text {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Abschnitt 1: Bilder mit unterschiedlichen Größen -->
+<section>
+    <h1>Bilder mit unterschiedlichen Größen</h1>
+    <p>
+        Hier werden Bilder mit unterschiedlichen Größen eingebunden. Die CSS-Stile sorgen dafür, dass die Bilder
+        responsiv bleiben.
+    </p>
+    <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 1">
+    <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 2">
+    <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 3">
+</section>
+
+<!-- Abschnitt 2: Responsive Bilder in einem Raster -->
+<section>
+    <h1>Responsive Bilder in einem Raster</h1>
+    <p>
+        Hier werden Bilder in einem Raster angezeigt. Die CSS-Stile sorgen dafür, dass die Bilder gleichmäßig im Raster
+        verteilt sind und sich responsiv verhalten.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 4" style="flex: 1;">
+        <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 5" style="flex: 1;">
+        <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 6" style="flex: 1;">
+    </div>
+</section>
+
+<!-- Abschnitt 3: Bild mit Hover-Effekt -->
+<section style="position: relative;">
+    <h1>Bild mit Hover-Effekt</h1>
+    <p>
+        Hier wird ein Bild eingebunden, das beim Überfahren mit der Maus einen Schattenwurf (Hover-Effekt) am Rand des
+        Bildes zeigt.
+    </p>
+    <div style="position: relative;">
+        <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 7"
+             style="width: 100%; height: auto; border-radius: 8px; transition: box-shadow 0.3s;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px; box-shadow: 0 0 0 rgba(0, 0, 0, 0); transition: box-shadow 0.3s;"></div>
+    </div>
+</section>
+
+<!-- Abschnitt 4: Rundes Bild mit Rahmen -->
+<section>
+    <h1>Rundes Bild mit Rahmen</h1>
+    <p>
+        In diesem Abschnitt wird ein Bild rund dargestellt und mit einem Rahmen versehen.
+    </p>
+    <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 8" style="border: 2px solid #3498db; border-radius: 50%;">
+</section>
+
+<!-- Abschnitt 5: Bild mit Overlay-Text -->
+<section class="overlay-container">
+    <h1>Bild mit Overlay-Text</h1>
+    <p>
+        Hier wird ein Bild mit einem überlagernden Text präsentiert. Der Text wird durch CSS zentriert und mit einem
+        transparenten Hintergrund versehen.
+    </p>
+    <div class="overlay-text">
+        <p>Überlagerte Textzeile</p>
+    </div>
+    <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 9">
+</section>
+
+</body>
+</html>

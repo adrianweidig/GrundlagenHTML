@@ -1,0 +1,51 @@
+/* CSS für die Nutzung externer CSS-Datei */
+#externStyles {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Spezieller Stil für den Textabschnitt */
+.highlight-text {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Weitere Stile für den Abschnitt moreStyles */
+.blue-background {
+    background-color: #66ccff;
+    padding: 10px;
+    color: #333;
+}
+
+.large-font {
+    font-size: 24px;
+}
+
+/* Stile für .blue-background angewendet auf span und h1 innerhalb des Abschnitts */
+.blue-background span {
+    color: red;
+}
+
+.blue-background h1 {
+    font-style: italic;
+}
+
+/* Stile für Abschnitt 3: .blue-background auf h2 */
+h2.blue-background {
+    color: #ffffff;
+    background-color: #003366;
+    padding: 8px;
+}
+
+/* Stile für Abschnitt 4: .blue-background auf Liste */
+.blue-background li {
+    color: #ffffff;
+}
+
+/* Stile für Abschnitt 5: .blue-background auf Links */
+.blue-background a {
+    text-decoration: none;
+    color: #ffffff;
+}

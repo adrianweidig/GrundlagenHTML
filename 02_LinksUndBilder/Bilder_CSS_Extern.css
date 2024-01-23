@@ -1,0 +1,27 @@
+/* Gemeinsame CSS-Stile für alle Abschnitte */
+.image-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* CSS-Stile für responsives Bild */
+.responsive-image {
+    width: 100%;
+}
+
+/* CSS-Stile für Hover-Effekt */
+.hover-image {
+    transition: box-shadow 0.3s;
+}
+
+.image-section:hover img.hover-image {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
