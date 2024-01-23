@@ -2,6 +2,10 @@
 
 Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und persönlicher Retrospektive.
 
+## Genutzte IDE
+
+IntelliJ IDEA 2023.3.2 (Ultimate Edition)
+
 ## Inhalte
 
 ### [**01_Grundlagen**](../../tree/master/01_Grundlagen)
