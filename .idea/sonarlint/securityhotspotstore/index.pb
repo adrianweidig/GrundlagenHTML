@@ -47,3 +47,5 @@ V
 &02_LinksUndBilder/Links_CSS_Extern.css,3\5\3520b3ee19ed133e8834cc0c8dc8c70d0b453e67
 T
 $01_Grundlagen/Groesseneinheiten.html,2\a\2a1bc201eb5f43ea6b3d5d44c053429b93d228b9
+H
+Übungen/BwBeispiel.html,f\7\f77a62b578d9b3df146e0f7f5367fd7cfc7ca067

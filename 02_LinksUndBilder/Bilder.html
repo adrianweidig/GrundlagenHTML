@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Verwendung von Bildern</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Verwendung von Bildern</title>
 </head>
 <body>
 
 <!-- Abschnitt 1: Einbinden eines Bildes mit src-Attribut -->
 <section id="imageSection1">
-  <h1>Abschnitt 1: Einbinden eines Bildes mit src-Attribut</h1>
-  <p>
-    Hier wird ein Bild (bild1.jpg) in den HTML-Dokument eingebunden.
-    Das "src"-Attribut gibt den Dateipfad zum Bild an und das "alt"-Attribut bietet eine alternative Beschreibung für den Fall, dass das Bild nicht geladen werden kann.
-  </p>
-  <img src="../Ressourcen/Bilder/01/fehlendesbild.jpg" alt="Hier ist der Alternativtext, falls das Bild nicht geladen werden kann.">
+    <h1>Abschnitt 1: Einbinden eines Bildes mit src-Attribut</h1>
+    <p>
+        Hier wird ein Bild (bild1.jpg) in den HTML-Dokument eingebunden.
+        Das "src"-Attribut gibt den Dateipfad zum Bild an und das "alt"-Attribut bietet eine alternative Beschreibung
+        für den Fall, dass das Bild nicht geladen werden kann. Die Quelle muss für alle zugänglich sein (Internet, Lokal
+        (freigegeben) etc.).
+    </p>
+    <img alt="Hier ist der Alternativtext, falls das Bild nicht geladen werden kann."
+         src="https://genshinlab.com/wp-content/uploads/2024/01/Lovander_location.jpg">
 </section>
 
 <!-- Abschnitt 2: Einbinden eines Bildes mit width- und height-Attributen -->
 <section id="imageSection2">
-  <h1>Abschnitt 2: Einbinden eines Bildes mit width- und height-Attributen</h1>
-  <p>
-    In diesem Abschnitt wird ein Bild (bild2.jpg) mit den Attributen "width" und "height" eingebunden.
-    Diese Attribute legen die Breite und Höhe des Bildes in Pixel fest.
-  </p>
-  <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 2" width="300" height="200">
+    <h1>Abschnitt 2: Einbinden eines Bildes mit width- und height-Attributen</h1>
+    <p>
+        In diesem Abschnitt wird ein Bild (bild2.jpg) mit den Attributen "width" und "height" eingebunden.
+        Diese Attribute legen die Breite und Höhe des Bildes in Pixel fest.
+    </p>
+    <img alt="Bild 2" height="200" src="../Ressourcen/Bilder/01/img3.jpg" width="300">
 </section>
 
 <!-- Abschnitt 3: Einbinden eines Bildes mit title-Attribut -->
 <section id="imageSection3">
-  <h1>Abschnitt 3: Einbinden eines Bildes mit title-Attribut</h1>
-  <p>
-    Hier wird ein Bild (bild3.jpg) mit dem "title"-Attribut eingebunden.
-    Das "title"-Attribut wird angezeigt, wenn der Benutzer mit der Maus über das Bild fährt.
-  </p>
-  <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 3" title="Beschreibungstext wenn man mit der Maus darüber fährt">
+    <h1>Abschnitt 3: Einbinden eines Bildes mit title-Attribut</h1>
+    <p>
+        Hier wird ein Bild (bild3.jpg) mit dem "title"-Attribut eingebunden.
+        Das "title"-Attribut wird angezeigt, wenn der Benutzer mit der Maus über das Bild fährt.
+    </p>
+    <img alt="Bild 3" src="../Ressourcen/Bilder/01/img3.jpg"
+         title="Beschreibungstext wenn man mit der Maus darüber fährt">
 </section>
 
 <!-- Abschnitt 4: Einbinden eines Bildes als Hyperlink -->
 <section id="imageSection4">
-  <h1>Abschnitt 4: Einbinden eines Bildes als Hyperlink</h1>
-  <p>
-    In diesem Abschnitt wird ein Bild (bild4.jpg) als Hyperlink zu einer anderen Seite eingebunden.
-    Das Bild wird von einem "a"-Tag umschlossen, das den Hyperlink repräsentiert.
-  </p>
-  <a href="https://www.google.de">
-    <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 4">
-  </a>
+    <h1>Abschnitt 4: Einbinden eines Bildes als Hyperlink</h1>
+    <p>
+        In diesem Abschnitt wird ein Bild (bild4.jpg) als Hyperlink zu einer anderen Seite eingebunden.
+        Das Bild wird von einem "a"-Tag umschlossen, das den Hyperlink repräsentiert.
+    </p>
+    <a href="https://www.google.de">
+        <img alt="Bild 4" src="../Ressourcen/Bilder/01/img3.jpg">
+    </a>
 </section>
 
 <!-- Abschnitt 5: Einbinden eines Bildes mit lazy loading -->
 <section id="imageSection5">
-  <h1>Abschnitt 5: Einbinden eines Bildes mit lazy loading</h1>
-  <p>
-    Hier wird ein Bild (bild5.jpg) mit dem "loading"-Attribut eingebunden.
-    Das "loading"-Attribut mit dem Wert "lazy" sorgt dafür, dass das Bild erst geladen wird, wenn es in den sichtbaren Bereich des Bildschirms kommt. Dies verbessert die Seitenladezeit.
-  </p>
-  <img src="../Ressourcen/Bilder/01/img3.jpg" alt="Bild 5" loading="lazy">
+    <h1>Abschnitt 5: Einbinden eines Bildes mit lazy loading</h1>
+    <p>
+        Hier wird ein Bild (bild5.jpg) mit dem "loading"-Attribut eingebunden.
+        Das "loading"-Attribut mit dem Wert "lazy" sorgt dafür, dass das Bild erst geladen wird, wenn es in den
+        sichtbaren Bereich des Bildschirms kommt. Dies verbessert die Seitenladezeit.
+    </p>
+    <img alt="Bild 5" loading="lazy" src="../Ressourcen/Bilder/01/img3.jpg">
 </section>
 
 </body>
