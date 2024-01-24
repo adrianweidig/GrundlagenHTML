@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Einfaches Login-Formular</title>
+</head>
+<body>
+
+<!-- Abschnitt 1: Überschrift -->
+<section>
+    <!-- H1-Tag für die Überschrift -->
+    <h1>Login</h1>
+    <!-- Textabschnitt mit Anweisung -->
+    <p>Bitte melden Sie sich an:</p>
+</section>
+
+<!-- Abschnitt 2: Formular -->
+<section>
+    <!-- Formular-Tag für Benutzereingaben -->
+    <form action="/login" method="post">
+        <!-- Benutzername -->
+        <!-- Label für Benutzereingabe mit Anweisung -->
+        <label for="username">Benutzername:</label>
+        <!-- Texteingabefeld für Benutzername -->
+        <input id="username" name="username" required type="text">
+        <br>
+
+        <!-- Passwort -->
+        <!-- Label für Passworteingabe mit Anweisung -->
+        <label for="password">Passwort:</label>
+        <!-- Passworteingabefeld -->
+        <input id="password" name="password" required type="password">
+        <br>
+
+        <!-- Anmelde-Button -->
+        <!-- Submit-Button, der das Formular abschickt -->
+        <input type="submit" value="Anmelden">
+    </form>
+</section>
+
+</body>
+</html>

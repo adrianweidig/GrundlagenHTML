@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Fortgeschrittenes Formular mit Inline CSS</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333;">
+
+<!-- Abschnitt 1: Überschrift -->
+<section style="text-align: center; margin: 20px;">
+    <h1 style="color: #0066cc; text-decoration: underline;">Fortschrittliches Formular</h1>
+    <p style="font-style: italic; color: #555;">Bitte füllen Sie das Formular aus:</p>
+</section>
+
+<!-- Abschnitt 2: Persönliche Informationen -->
+<section>
+    <h2 style="color: #008000; text-decoration: underline;">Persönliche Informationen</h2>
+    <!-- Formular für persönliche Informationen -->
+    <form action="/submit" method="post">
+        <!-- Vorname -->
+        <label for="firstname" style="font-weight: bold;">Vorname:</label>
+        <input id="firstname" name="firstname" required style="width: 200px; padding: 5px; margin-bottom: 10px;"
+               type="text">
+        <br>
+
+        <!-- Nachname -->
+        <label for="lastname" style="font-weight: bold;">Nachname:</label>
+        <input id="lastname" name="lastname" required style="width: 200px; padding: 5px; margin-bottom: 10px;"
+               type="text">
+        <br>
+
+        <!-- Geschlecht -->
+        <label style="font-weight: bold;">Geschlecht:</label>
+        <label for="male">Männlich</label>
+        <input id="male" name="gender" type="radio" value="male">
+        <label for="female">Weiblich</label>
+        <input id="female" name="gender" type="radio" value="female">
+        <br>
+
+        <!-- Geburtsdatum -->
+        <label for="birthdate" style="font-weight: bold;">Geburtsdatum:</label>
+        <input id="birthdate" name="birthdate" required style="padding: 5px; margin-bottom: 10px;" type="date">
+        <br>
+
+        <!-- Telefonnummer -->
+        <label for="phone" style="font-weight: bold;">Telefonnummer:</label>
+        <input id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}" placeholder="123-4567" required style="width: 200px; padding: 5px; margin-bottom: 10px;"
+               type="tel">
+        <br>
+
+        <!-- Submit-Button -->
+        <input style="background-color: #0066cc; color: #fff; padding: 8px 15px; border: none; cursor: pointer;" type="submit"
+               value="Absenden">
+    </form>
+</section>
+
+<!-- Abschnitt 3: Kommentare und Anmerkungen -->
+<section>
+    <h2 style="color: #ff6600; text-decoration: underline;">Kommentare und Anmerkungen</h2>
+    <!-- Formular für Kommentare und Anmerkungen -->
+    <form action="/submit" method="post">
+        <!-- Kommentarfeld -->
+        <label for="comments" style="font-weight: bold;">Ihre Kommentare:</label>
+        <textarea cols="50" id="comments" name="comments" rows="4"
+                  style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+        <br>
+
+        <!-- Newsletter-Abonnement -->
+        <label for="subscribe" style="font-weight: bold;">Newsletter abonnieren:</label>
+        <input id="subscribe" name="subscribe" style="margin-bottom: 10px;" type="checkbox" value="yes">
+        <br>
+
+        <!-- Submit-Button -->
+        <input style="background-color: #ff6600; color: #fff; padding: 10px 20px; border: none; cursor: pointer;" type="submit"
+               value="Absenden">
+    </form>
+</section>
+
+</body>
+</html>

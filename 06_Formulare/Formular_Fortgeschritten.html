@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Fortgeschrittenes Formular</title>
+</head>
+<body>
+
+<!-- Abschnitt 1: Überschrift -->
+<section>
+    <h1>Fortschrittliches Formular</h1>
+    <p>Bitte füllen Sie das Formular aus:</p>
+</section>
+
+<!-- Abschnitt 2: Persönliche Informationen -->
+<section>
+    <h2>Persönliche Informationen</h2>
+    <!-- Formular für persönliche Informationen -->
+    <form action="/submit" method="post">
+        <!-- Vorname -->
+        <label for="firstname">Vorname:</label>
+        <input id="firstname" name="firstname" required type="text">
+        <br>
+
+        <!-- Nachname -->
+        <label for="lastname">Nachname:</label>
+        <input id="lastname" name="lastname" required type="text">
+        <br>
+
+        <!-- Geschlecht -->
+        <label>Geschlecht:</label>
+        <label for="male">Männlich</label>
+        <input id="male" name="gender" type="radio" value="male">
+        <label for="female">Weiblich</label>
+        <input id="female" name="gender" type="radio" value="female">
+        <br>
+
+        <!-- Geburtsdatum -->
+        <label for="birthdate">Geburtsdatum:</label>
+        <input id="birthdate" name="birthdate" required type="date">
+        <br>
+
+        <!-- Telefonnummer -->
+        <label for="phone">Telefonnummer:</label>
+        <input id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}" placeholder="123-4567" required type="tel">
+        <br>
+
+        <!-- Submit-Button -->
+        <input type="submit" value="Absenden">
+    </form>
+</section>
+
+<!-- Abschnitt 3: Kommentare und Anmerkungen -->
+<section>
+    <h2>Kommentare und Anmerkungen</h2>
+    <!-- Formular für Kommentare und Anmerkungen -->
+    <form action="/submit" method="post">
+        <!-- Kommentarfeld -->
+        <label for="comments">Ihre Kommentare:</label>
+        <textarea cols="50" id="comments" name="comments" rows="4"></textarea>
+        <br>
+
+        <!-- Newsletter-Abonnement -->
+        <label for="subscribe">Newsletter abonnieren:</label>
+        <input id="subscribe" name="subscribe" type="checkbox" value="yes">
+        <br>
+
+        <!-- Submit-Button -->
+        <input type="submit" value="Absenden">
+    </form>
+</section>
+
+</body>
+</html>
