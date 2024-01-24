@@ -1,0 +1,52 @@
+/* Allgemeine Stile für die Liste */
+.list-section {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Stile für die benutzerdefinierte Liste */
+.custom-list {
+    list-style-type: square;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Stile für verschachtelte Listen */
+.nested-list {
+    list-style-type: circle;
+}
+
+/* Stile für spezielle Elemente */
+.special-item {
+    color: #cc0000;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Zusätzliche individuelle Stile für verschiedene Abschnitte */
+.blue-section {
+    background-color: #e6f7ff;
+}
+
+.green-section {
+    background-color: #d9f2d9;
+}
+
+.orange-section {
+    background-color: #ffe6cc;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.red-text {
+    color: #cc0000;
+}
+

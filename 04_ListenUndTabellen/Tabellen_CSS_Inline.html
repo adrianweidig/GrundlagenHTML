@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Tabellen mit Inline CSS gestalten</title>
+</head>
+<body>
+
+<!-- Abschnitt 1: Einfache Tabelle mit Inline CSS -->
+<section style="margin-bottom: 20px;">
+    <h1 style="color: #336699;">Abschnitt 1: Einfache Tabelle mit Inline CSS</h1>
+    <p>
+        Hier wird eine einfache Tabelle mit Inline CSS für den Rand erstellt:
+    </p>
+    <table style="border-collapse: collapse; width: 100%; margin-top: 10px; border: 2px solid #336699;">
+        <tr>
+            <td style="padding: 15px; background-color: #f2f2f2;">Zelle 1</td>
+            <td style="padding: 15px; background-color: #ffffff;">Zelle 2</td>
+            <td style="padding: 15px; background-color: #f2f2f2;">Zelle 3</td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; background-color: #ffffff;">Zelle 4</td>
+            <td style="padding: 15px; background-color: #f2f2f2;">Zelle 5</td>
+            <td style="padding: 15px; background-color: #ffffff;">Zelle 6</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Abschnitt 2: Tabelle mit Kopfzeile und Inline CSS -->
+<section style="margin-bottom: 20px;">
+    <h1 style="color: #336699;">Abschnitt 2: Tabelle mit Kopfzeile und Inline CSS</h1>
+    <p>
+        Hier wird eine Tabelle mit einer Kopfzeile und Inline CSS für den Hintergrund erstellt:
+    </p>
+    <table style="border-collapse: collapse; width: 100%; margin-top: 10px; border: 2px solid #336699;">
+        <thead>
+        <tr>
+            <th style="padding: 15px; background-color: #336699; color: #ffffff;">Name</th>
+            <th style="padding: 15px; background-color: #336699; color: #ffffff;">Alter</th>
+            <th style="padding: 15px; background-color: #336699; color: #ffffff;">Stadt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td style="padding: 15px; background-color: #ffffff;">Max Mustermann</td>
+            <td style="padding: 15px; background-color: #ffffff;">30</td>
+            <td style="padding: 15px; background-color: #ffffff;">Musterstadt</td>
+        </tr>
+        <tr>
+            <td style="padding: 15px; background-color: #f2f2f2;">Maria Musterfrau</td>
+            <td style="padding: 15px; background-color: #f2f2f2;">25</td>
+            <td style="padding: 15px; background-color: #f2f2f2;">Musterstadt</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Abschnitt 3: Verschachtelte Tabellen mit Inline CSS -->
+<section>
+    <h1 style="color: #336699;">Abschnitt 3: Verschachtelte Tabellen mit Inline CSS</h1>
+    <p>
+        Hier wird eine Tabelle mit einer verschachtelten Tabelle in einer Zelle und Inline CSS erstellt:
+    </p>
+    <table style="border-collapse: collapse; width: 100%; margin-top: 10px; border: 2px solid #336699;">
+        <tr>
+            <td style="padding: 15px; background-color: #f2f2f2;">Zelle 1</td>
+            <td style="padding: 15px; background-color: #ffffff;">Zelle 2</td>
+            <td style="padding: 15px; background-color: #f2f2f2;">
+                <table style="border-collapse: collapse; width: 100%; border: 2px solid #336699;">
+                    <tr>
+                        <td style="padding: 15px; background-color: #ffffff;">Inneres 1</td>
+                        <td style="padding: 15px; background-color: #ffffff;">Inneres 2</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 15px; background-color: #f2f2f2;">Inneres 3</td>
+                        <td style="padding: 15px; background-color: #f2f2f2;">Inneres 4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</section>
+
+</body>
+</html>

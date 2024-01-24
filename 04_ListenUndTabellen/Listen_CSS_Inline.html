@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HTML-Listen mit Inline CSS</title>
+</head>
+<body>
+
+<!-- Abschnitt 1: Ungeordnete Liste (ul) -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 1: Ungeordnete Liste (ul)</h1>
+    <p style="font-style: italic;">
+        Die <code>ul</code>-Liste wird verwendet, um eine ungeordnete Liste zu erstellen:
+    </p>
+    <ul style="list-style-type: square; color: #0066cc; font-weight: bold;">
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ul>
+</section>
+
+<!-- Abschnitt 2: Geordnete Liste (ol) -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 2: Geordnete Liste (ol)</h1>
+    <p style="font-style: italic;">
+        Die <code>ol</code>-Liste wird verwendet, um eine geordnete Liste mit numerierten Elementen zu erstellen:
+    </p>
+    <ol style="list-style-type: upper-alpha; color: #990000; font-weight: bold;">
+        <li>Element A</li>
+        <li>Element B</li>
+        <li>Element C</li>
+    </ol>
+</section>
+
+<!-- Abschnitt 3: Definitionliste (dl, dt, dd) -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 3: Definitionliste (dl, dt, dd)</h1>
+    <p style="font-style: italic;">
+        Die <code>dl</code>-Liste wird verwendet, um eine Definitionliste zu erstellen:
+    </p>
+    <dl style="color: #008000; font-weight: bold;">
+        <dt>Begriff 1</dt>
+        <dd>Definition 1</dd>
+        <dt>Begriff 2</dt>
+        <dd>Definition 2</dd>
+    </dl>
+</section>
+
+<!-- Abschnitt 4: Eingebettete Liste -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 4: Eingebettete Liste</h1>
+    <p style="font-style: italic;">
+        Listen können auch ineinander verschachtelt sein:
+    </p>
+    <ul style="list-style-type: circle; color: #336699; font-weight: bold;">
+        <li>Hauptpunkt 1
+            <ul style="list-style-type: square;">
+                <li>Unterpunkt A</li>
+                <li>Unterpunkt B</li>
+            </ul>
+        </li>
+        <li>Hauptpunkt 2</li>
+    </ul>
+</section>
+
+<!-- Abschnitt 5: Listen mit unterschiedlichen Markern -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 5: Listen mit unterschiedlichen Markern</h1>
+    <p style="font-style: italic;">
+        Der Markerstil kann durch das <code>type</code>-Attribut geändert werden:
+    </p>
+    <ul style="color: #990066; font-weight: bold;" type="circle">
+        <li>Rund</li>
+        <li>Rund</li>
+        <li>Rund</li>
+    </ul>
+    <ol style="color: #cc6600; font-weight: bold;" type="A">
+        <li>Alpha</li>
+        <li>Alpha</li>
+        <li>Alpha</li>
+    </ol>
+</section>
+
+<!-- Abschnitt 6: Gemischte Liste -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 6: Gemischte Liste</h1>
+    <p style="font-style: italic;">
+        Sie können unterschiedliche Arten von Listen innerhalb derselben Liste mischen:
+    </p>
+    <ul style="list-style-type: square; color: #336699; font-weight: bold;">
+        <li>Ungeordnetes Element</li>
+        <li>Geordnetes Element
+            <ol style="list-style-type: upper-roman;">
+                <li>Unterpunkt 1</li>
+                <li>Unterpunkt 2</li>
+            </ol>
+        </li>
+        <li>Ungeordnetes Element</li>
+    </ul>
+</section>
+
+<!-- Abschnitt 7: Beschreibende Liste -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 7: Beschreibende Liste</h1>
+    <p style="font-style: italic;">
+        Eine beschreibende Liste kann für kurze Erläuterungen verwendet werden:
+    </p>
+    <dl style="color: #008000; font-weight: bold;">
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+</section>
+
+<!-- Abschnitt 8: Einfache Checkliste -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 8: Einfache Checkliste</h1>
+    <p style="font-style: italic;">
+        Sie können Listen für einfache Checklisten verwenden:
+    </p>
+    <ul style="list-style-type: none;">
+        <li style="color: #990000;"><input checked type="checkbox"> Aufgabe 1</li>
+        <li style="color: #336699;"><input type="checkbox"> Aufgabe 2</li>
+        <li style="color: #990000;"><input checked type="checkbox"> Aufgabe 3</li>
+    </ul>
+</section>
+
+<!-- Abschnitt 9: Listen mit Verlinkung -->
+<section style="background-color: #f5f5f5; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px;">
+    <h1 style="color: #333;">Abschnitt 9: Listen mit Verlinkung</h1>
+    <p style="font-style: italic;">
+        Listenelemente können auch Links enthalten:
+    </p>
+    <ul style="list-style-type: none;">
+        <li style="color: #0066cc;"><a href="https://www.example.com" style="text-decoration: none; font-weight: bold;">Link
+            zu Beispiel.com</a></li>
+        <li style="color: #0066cc;"><a href="https://www.example.org" style="text-decoration: none; font-weight: bold;">Link
+            zu Beispiel.org</a></li>
+    </ul>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HTML-Tabellen</title>
+</head>
+<body>
+
+<!-- Abschnitt 1: Einfache Tabelle -->
+<section>
+    <h1>Abschnitt 1: Einfache Tabelle</h1>
+    <p>
+        Hier wird eine einfache Tabelle mit drei Zeilen und drei Spalten erstellt:
+    </p>
+    <table border="1">
+        <tr>
+            <td>Zelle 1</td>
+            <td>Zelle 2</td>
+            <td>Zelle 3</td>
+        </tr>
+        <tr>
+            <td>Zelle 4</td>
+            <td>Zelle 5</td>
+            <td>Zelle 6</td>
+        </tr>
+        <tr>
+            <td>Zelle 7</td>
+            <td>Zelle 8</td>
+            <td>Zelle 9</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Abschnitt 2: Tabelle mit Kopfzeile -->
+<section>
+    <h1>Abschnitt 2: Tabelle mit Kopfzeile</h1>
+    <p>
+        Hier wird eine Tabelle mit einer Kopfzeile und zwei Datensätzen erstellt:
+    </p>
+    <table border="1">
+        <!-- Thead definiert den Kopfbereich der Tabelle -->
+        <thead>
+        <!-- Tr definiert eine Zeile in der Kopfzeile -->
+        <tr>
+            <!-- Th definiert eine Kopfzellenüberschrift -->
+            <th>Name</th>
+            <th>Alter</th>
+            <th>Stadt</th>
+        </tr>
+        </thead>
+        <!-- Tbody definiert den Hauptteil der Tabelle mit den Daten -->
+        <tbody>
+        <tr>
+            <td>Max Mustermann</td>
+            <td>30</td>
+            <td>Musterstadt</td>
+        </tr>
+        <tr>
+            <td>Maria Musterfrau</td>
+            <td>25</td>
+            <td>Musterstadt</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Abschnitt 3: Verschachtelte Tabellen -->
+<section>
+    <h1>Abschnitt 3: Verschachtelte Tabellen</h1>
+    <p>
+        Hier wird eine Tabelle mit einer verschachtelten Tabelle in einer Zelle erstellt:
+    </p>
+    <table border="1">
+        <tr>
+            <td>Zelle 1</td>
+            <td>Zelle 2</td>
+            <!-- Verschachtelte Tabelle -->
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>Inneres 1</td>
+                        <td>Inneres 2</td>
+                    </tr>
+                    <tr>
+                        <td>Inneres 3</td>
+                        <td>Inneres 4</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Zelle 4</td>
+            <td>Zelle 5</td>
+            <td>Zelle 6</td>
+        </tr>
+    </table>
+</section>
+
+</body>
+</html>
