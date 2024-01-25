@@ -9,10 +9,6 @@ S
 #01_Grundlagen/Textformatierung.html,a\6\a687c9f61efb1a85302fada00c2c7e04e99eaf6d
 M
 01_Grundlagen/CSS_Inline.html,2\8\287e56d21079b74777e080465208e5f4248f857d
-Y
-)04_ListenUndTabellen/platzhalterdatei.txt,5\7\57b2949bc9c25b20f7801cb532d70a4c4a1883ca
-Q
-!06_Formulare/platzhalterdatei.txt,4\8\48c631a0336b657e49295227511896169a63328e
 R
 "07_Multimedia/platzhalterdatei.txt,2\1\214e295ff44e605d35cacf4815c46c385e42800e
 S
@@ -39,12 +35,8 @@ V
 &02_LinksUndBilder/Links_CSS_Extern.css,3\5\3520b3ee19ed133e8834cc0c8dc8c70d0b453e67
 H
 Übungen/BwBeispiel.html,f\7\f77a62b578d9b3df146e0f7f5367fd7cfc7ca067
-U
-%01_Grundlagen/EinheitenUndZahlen.html,d\1\d1f586be0c3af84541ea8c61bb3ad7121d40eb46
 P
  04_ListenUndTabellen/Listen.html,c\2\c20aa93459fea66e84a43ec81e5443d77b9e69bb
-Z
-*04_ListenUndTabellen/Listen_CSS_Inline.css,7\b\7bc34f753d0e2165d0962ca4ef0c8b1360eae079
 [
 +04_ListenUndTabellen/Listen_CSS_Inline.html,1\4\14c6451f404c3980f4f2c9be5eadb874c3c5bf28
 [
