@@ -1,0 +1,215 @@
+
+/* Layout der Seite */
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #256939;
+}
+
+#container {
+	max-width: 46em;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+header img {
+	width: 15em;
+	display: block;
+	margin: 0 auto;
+}
+
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 1px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header li {
+	flex-grow: 1;
+	border: 2px solid #b97d36;
+	text-align: center;
+	color: #125f1e;
+	margin: 1px;
+}
+
+header li.active,
+#container > footer li.active {
+	font-weight: bold;
+	padding: 0.2em 0;
+}
+
+header a, header a:visited {
+	display: block;
+	padding: 0.2em 0;
+	color: #125f1e;
+	text-decoration: none;
+}
+
+header a:hover, header a:focus {
+	text-decoration: underline;
+}
+
+header li:hover {
+	background-color: #ddd;
+}
+
+main {
+	padding: 1em;
+}
+
+#container > footer {
+	background-image: url('../images/hundeparade.png');
+	background-size: 80%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding: 10em 0 2em;
+}
+
+#container > footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#container > footer li {
+	flex-grow: 1;
+	color: #125f1e;
+	text-align: center;
+	margin: 0.3em;
+}
+
+#container > footer a, #container > footer a:visited {
+	color: #125f1e;
+}
+
+
+/* Textformatierungen */
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin: 0.7em 0;
+}
+
+h1, h2, h3 {
+	margin: 1em 0 0.5em;
+}
+
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+blockquote {
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+blockquote footer {
+	text-align: right;
+	color: #47271a;
+}
+
+
+/* Bild-und-Text-Kombination */
+
+/* entweder mit float (Bild „schwebt“ im Text): */
+
+.bild-text-float figure {
+	margin: 0 1em 0.3em 0;
+	float: left;
+	width: 48%;
+}
+
+/* Trick, um den float nach dem äußeren <div> wieder aufzuheben (clearing): */
+.bild-text-float::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* oder mit flex-box (Bild und Text wie in Tabelle nebeneinander): */
+
+.bild-text {
+	display: flex;
+	margin-top: 1.5em;
+}
+
+.bild-text figure {
+	margin: 0;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 22em;
+}
+
+.bild-text .text {
+	flex-grow: 1;
+	flex-shring: 1;
+	flex-basis: 22em;
+	margin-left: 1em;
+}
+
+/* Trick, um den oberen Abstand des ersten Kind-Elements zu entfernen. */
+.bild-text .text > :first-child {
+	margin-top: 0;
+}
+
+.text-zentriert {
+	text-align: center;
+}
+
+
+/* Tabellenformatierung (für die Preislisten) */
+
+table {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-collapse: collapse;
+	margin: 1.5em auto;
+}
+
+caption {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+thead {
+	border-bottom: 1px solid black;
+}
+
+td, th {
+	text-align: center;
+	padding: 0.3em 0.5em;
+	vertical-align: top;
+}
+
+td:first-child, th:first-child {
+	text-align: left;
+}
+
+td:last-child {
+	text-align: right;
+}
+
+.secondary {
+	display: block;
+	font-size: 0.85em;
+}

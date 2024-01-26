@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 23.383915 23.175005"
+   height="23.175005mm"
+   width="23.383915mm">
+  <defs
+     id="defs2">
+    <filter
+       id="filter3739"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood3729"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite3731"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur3733"
+         result="blur"
+         stdDeviation="3"
+         in="composite1" />
+      <feOffset
+         id="feOffset3735"
+         result="offset"
+         dy="6"
+         dx="6" />
+      <feComposite
+         id="feComposite3737"
+         result="composite2"
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-31.130415,-37.821885)"
+     style="display:inline"
+     id="layer2">
+    <path
+       id="path4588"
+       d="m 43.842476,45.213071 c -1.772139,0.348282 -1.854086,1.475073 -1.802868,1.772137 0.05122,0.297063 0.08195,0.604371 -0.153654,0.880948 l -0.44,-0.09046 -0.01072,0.213383 0.471205,0.122922 c 0,0 -0.604371,0.891191 -1.014112,1.147281 -0.245847,0.409742 0.430229,0.563395 0.450715,0.819486 0.02048,0.25609 -0.317549,0.553152 -0.0717,0.768266 0.245846,0.215117 0.788755,0.174141 0.798997,0.245848 0.01024,0.07171 -0.471202,0.153655 -0.471202,0.153655 l -0.102436,0.635101 c 0,0 0.440473,0.04098 0.46096,0.28682 0.02048,0.245846 -0.384599,0.701676 -0.14341,1.188254 0.188509,0.380302 0.471205,0.54291 0.788755,0.512178 0.31755,-0.03073 1.270202,-0.368767 1.854085,-0.184384 0.614616,0.204873 1.00387,1.300934 1.00387,1.300934"
+       style="fill:none;stroke:#5b8748;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path4590"
+       d="m 41.837284,46.323969 c -1.332766,0.666384 -0.917327,1.027812 -1.810825,1.57904 -0.877065,0.54109 -2.855651,0.192426 -3.520241,0.724329 -0.323482,0.258898 -0.342857,1.20651 0.59395,1.550067 0.442395,0.16224 1.133931,0.177109 1.553567,0.291359 0.587467,0.159943 0.83672,0.389511 0.83672,0.389511 0,0 -0.415002,0.218428 -0.970917,0.346302 -0.778109,0.178985 -1.755874,0.277139 -1.810509,0.58084 -0.110769,0.615729 0.622925,1.158928 1.926718,1.043035 1.059675,-0.09419 1.738391,-0.39114 2.651048,-0.347679"
+       style="fill:none;stroke:#b97d36;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path4592"
+       d="m 42.967237,45.903858 c 0,0 1.595748,-0.18273 2.862046,0.0783 1.442208,0.297297 2.526969,1.09511 2.526969,1.09511"
+       style="fill:none;stroke:#b97d36;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path4594"
+       d="m 42.416748,52.611152 c 0,0 0.941628,0.275246 1.274821,0.304218 0.333192,0.02897 0.956114,-0.0145 1.332767,0.231785 0.37665,0.246272 0.883682,0.840224 0.883682,0.840224"
+       style="fill:none;stroke:#b97d36;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path4596"
+       d="m 44.169626,46.932408 c -0.05795,0.811249 0.06901,1.362368 0.217299,1.492117 0.320646,0.280564 0.46357,0.825736 0.840222,0.840225 0.564977,0.0869 1.086495,-1.999153 1.086495,-1.999153"
+       style="fill:none;stroke:#b97d36;stroke-width:0.34999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       y="0.28973189"
+       x="0.31870508"
+       id="text4600"
+       style="font-style:normal;font-weight:normal;font-size:3.35138893px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#125f1e;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><textPath
+         id="textPath4604"
+         xlink:href="#path4602"><tspan
+           id="tspan4598"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.35138893px;font-family:Constantia;-inkscape-font-specification:'Constantia Bold';fill:#125f1e;fill-opacity:1;stroke-width:0.26458332">•EBERLEI•</tspan></textPath></text>
+    <path
+       id="path4602"
+       d="m 35.579076,46.613701 c 0,0 2.201963,-3.476781 6.808697,-3.447809 4.606738,0.02897 7.185353,3.53473 7.185353,3.53473"
+       style="fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path4607"
+       d="m 34.130415,53.364456 c 0,0 1.997766,4.715113 8.662985,4.606735 7.127404,-0.115894 8.720929,-5.070307 8.720929,-5.070307"
+       style="fill:none;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       id="text4611"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:Constantia;-inkscape-font-specification:Constantia;letter-spacing:0px;word-spacing:0px;fill:#125f1e;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><textPath
+         id="textPath4613"
+         xlink:href="#path4607"><tspan
+   id="tspan4609"
+   style="font-size:1.23472226px;fill:#125f1e;fill-opacity:1;stroke-width:0.26458332">HUNDEPENSION &amp; HUNDESCHULE</tspan></textPath></text>
+  </g>
+</svg>

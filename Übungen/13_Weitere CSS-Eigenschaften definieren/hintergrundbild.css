@@ -1,0 +1,11 @@
+﻿body {font-family: sans-serif; background-image: url(logo.jpg); }
+
+p {color: 003366; font-size: 10pt; }		
+
+h1, h2, h {color: #339966; }
+
+h1 {border-bottom: 1px solid #339966; font-size: 16pt; }
+  
+h2 {font-size: 12pt; }  
+
+h3 {font-size: 10pt; }
