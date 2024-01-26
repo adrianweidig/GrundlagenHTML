@@ -1,0 +1,114 @@
+/* Gemeinsame Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh; /* Mindesthöhe des Viewports */
+}
+
+/* Stile für die Sidebar (Navigation) */
+.sidebar {
+    width: 200px; /* Breite der Sidebar */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Schatten für Trennung */
+    height: 100%; /* Volle Höhe der Sidebar */
+    box-sizing: border-box;
+    overflow-y: auto; /* Bei Bedarf Scrollleiste in der Sidebar */
+    display: flex;
+    flex-direction: column; /* Anordnung der Kinder-Elemente in Spalte */
+}
+
+.sidebar h2 {
+    color: #ffcc00;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px; /* Platz für Footer */
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: 10px;
+}
+
+/* Footer-stil für die Sidebar */
+.sidebar footer {
+    margin-top: auto; /* Footer bleibt am unteren Rand */
+    padding-top: 20px;
+}
+
+/* Stile für den Hauptinhalt */
+main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section p {
+    color: #666;
+}
+
+/* Liste und Tabellenstile */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footerstil */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
