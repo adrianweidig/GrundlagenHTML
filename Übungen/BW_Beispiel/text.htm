@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Erste Webseite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/test.css" />
+    <style>
+        article {
+            background-color: azure;
+            color: darkorange;
+        } 
+        h2, h1, h3, div {
+            font-size: 36px;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Überschrift erster Ordnung</h1>
+    <p>
+    Der Inhalt &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;der ersten Webseite.<br/> 
+    Wir beginnen einfach eine neue Seite, dort wo<br/>
+    ich will. Hier die deutschen Umlaute: öäüßÜÄÖ;<br/>
+    &ouml;&Ouml;&szlig;
+    </p>
+    <!--  -->
+    <h2>Überschrift zweiter Ordnung</h2>
+    <div>Überschrift zweiter Ordnung im DIV</div>
+    
+    <aside>
+            Nach zahlreichen leidvollen Kriegen wird im 5. Jh. v. Chr. der "Chalkidische Bund" geschlossen, 
+            um militärisch, politisch und wirtschaftlich eng zusammenzuarbeiten. Mitte des 4. Jh. v. Chr. wird die Chalkidiki dennoch 
+            von ihren starken Nachbarn, den staatlich geeinten und straff organisierten Makedonen, unterworfen. 
+            Unter König Philipp II. und später unter seinem Sohn Alexander dem Großen entsteht erstmals ein geeintes Griechenland. 
+            Allerdings ist Griechenland nur noch ein kleiner, relativ unbedeutender Teil im mächtigen Reich von Alexander dem Großen.
+            
+    </aside>
+
+   <hr/>
+
+   <header>
+       <h1 style="background-color: lightgoldenrodyellow; color: darkblue;">Überschrift im Kopfteil </h1>
+       Das ist ein Text im Kopfbereich, Logo, Banner, <img src="images/logo.png" title="Wappen Wilkau" alt="Wappenlogo Wilkau" />
+       <nav>Im Kopfbereich kann auch eine Navigation stehen.</nav>
+   </header>
+
+   <!-- Kommentar Anfang
+   main steht für den Hauptbereich
+   Kommentar Ende-->
+   <main>
+      <!-- main sollte nur einmal in einem HTML-Dokument vorhanden sein -->
+      <section>
+          section (Sektion) steht für einen Abschnitt.
+          <p>Mitte des 15. Jh. wird Griechenland, und somit auch die Chalkidiki, von den Türken erobert. 
+                Das <span>Byzantinische Reich</span> ist 1453 endgültig zerstört. Im 16. Jh. führen die Türken auf der Chalkidiki die Seidenraupenzucht und den Tabakanbau ein. 
+                Die Region erlebt einen gewaltigen wirtschaftlichen Aufschwung.
+          </p>
+          <article>
+              <p class="class1">In einem Artikel stehen Bilder, Tabellen, Text, Absatz1</p>.
+              <p class="class2">In einem Artikel stehen Bilder, Tabellen, Text Absatz 2</p>.
+              <p class="class1 class3">In einem Artikel stehen Bilder, Tabellen, Text Absatz 3</p>.
+          </article>
+          <article>
+              <header id="nummer1">Kopf im Artikel</header>
+              <h1>Überschrift im Artikel</h1>
+              <footer>Fuß im Artikel</footer>
+          </article>
+          <h1 class="class1">Überschrift in Sektion direkt</h1>
+          <footer>Fußbereich in der Sektion.</footer>
+      </section>
+      <aside>
+          Zusatzartikel
+          <nav>Navigation im Zusatzbereich</nav>
+      </aside>
+   </main>
+
+   <footer>Fußbereich mit Impressum, Kontakt, Datenschutz. Navigation</footer>
+
+   <pre>
+       Vorformatierter Text mit Inhalt und viel Platz               Hier geht es weiter.
+       
+
+       Neue Zeile ohne Break. Wofür nun dies? Pre ist geacht, wenn Sie Programmcode oder schwer darstellbaren Text veröffentlichen wollen.
+   </pre>
+</body>
+</html>

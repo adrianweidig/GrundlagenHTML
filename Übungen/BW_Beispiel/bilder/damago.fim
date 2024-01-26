@@ -1,0 +1,9 @@
+"fim200","",""
+<map name="Schwimmbad" id="Schwimmbad">
+ <area shape="rect" coords="385,69,444,162" href="spalten.htm" alt="Sprungturm" title="Sprungturm" fimcolor="0" fimcontrast="1" />
+ <area shape="circle" coords="173,153,55" href="hintergrund.htm" alt="" fimcolor="0" fimcontrast="1" />
+ <area shape="poly" coords="711,232,712,233,637,244,573,244,438,254,389,263,375,246,268,261,231,289,227,370,273,404,344,426,449,405,511,362,506,311,460,307,427,345,376,363,332,352,360,311,405,294,469,285,567,277,637,274,712,272,712,235,712,235,710,234,710,234,711,234,713,237,713,237,711,233,711,233" href="anzeigenbereich.htm" alt="Rutsche" title="Rutsche" fimcolor="0" fimcontrast="1" />
+ <area shape="poly" coords="155,359,155,360,136,381,113,353,94,337,73,358,81,397,75,448,106,467,121,443,111,417,158,400,158,359" href="hintergrund.htm" alt="Dusche" title="Dusche" fimcolor="0" fimcontrast="1" />
+ <area shape="rect" coords="491,160,716,361" href="tabellen.htm" alt="Schwimmbecken" title="Schwimmbecken" fimcolor="0" fimcontrast="1" />
+</map>
+<img src="c:\fi7_projekt\bilder\img1.jpg" width="716" height="471" border="3" alt="Schwimmbad &quot;Zur Sonne&quot;" title="Schwimmbad &quot;Zur Sonne&quot;" usemap="#Schwimmbad" />

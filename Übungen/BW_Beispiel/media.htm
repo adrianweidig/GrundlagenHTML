@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bundeswehr aktuell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/media.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo1" src="images/logo.png" title="Dienstwappen" alt="Logo" />
+        <img class="logo2" src="images/logo.png" title="Dienstwappen" alt="Logo" />
+        <h1>HTML-Webinar, 22.01.2024 - 26.01.2024</h1>
+        <!-- 
+        <img class="imgbw" src="https://www.bundeswehr.de/resource/image/5728594/landscape_ratio18x7/2000/778/c602babcf47e34df282449af43dad2c5/A0FEF2E67C1E962F24035C44C2F0BF1C/nachgefragt-87-generalleutnant-alfons-mais.jpg"
+        -->
+        <nav>
+            <ul>
+                <li><a href="index.htm">Startseite</a></li>
+                <li><a href="liste.htm">Listen</a></li>
+                <li><a href="verlinkung.htm">Verlinkung</a></li>
+                <li><a href="formular.htm">Formular</a></li>
+                <li><a href="media.htm">Media</a></li>
+                <li><a href="https://www.bundeswehr.de/de/" target="kit">Bundeswehr</a></li>                                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Medieninhalte</h1>
+
+        <section>
+            <h2>Video-Integration</h2>
+            <video src="media/Pol.mp4" type="video/mp4" controls="controls">
+               Ihr aktueller Browser unterstützt leider kein Video-Tag.
+               Nutzen Sie deshalb bitte den <a href="media/Pol.mp4">Video-Link</a>.
+            </video>
+            
+            <h2>Audio-Integration</h2>
+            <audio src="media/ABBA.mp3" type="audio/mp3" controls="controls" loop="loop">
+                Ihr aktueller Browser unterstützt leider kein Audio-Tag.
+                Nutzen Sie deshalb bitte den <a href="media/ABBA.mp3">Audio-Link</a>.
+            </audio>
+
+            <h2>Google Maps Karte einbinden</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13788.918064866912!2d13.748901673680102!3d51.03489143295222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4709c5fc92d9aaa9%3A0xdfaec8b39fc9b6a0!2sAugust-Bebel-Stra%C3%9Fe%2C%2001219%20Dresden!5e0!3m2!1sde!2sde!4v1706257957360!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h2>Youtube Video einbinden</h2>
+            <iframe width="600" height="450" src="https://www.youtube.com/embed/LpVeLolctmA?si=lB2recMfpbhzaNa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h2>Eigene Website-Bestandteile einbinden</h2>
+            <iframe width="600" height="450" src="index.htm">
+              Falls Iframe nicht unterstützt, <a href="index.htm">Hier lang</a>
+            </iframe>
+
+            <h2>Fremde Webseite einbinden, wiki Selfhtml</h2>
+            <iframe  width="600" height="450" src="https://wiki.selfhtml.org/wiki/JavaScript/Objekte/RegExp">
+                    Falls Iframe nicht unterstützt, <a href="https://wiki.selfhtml.org/wiki/JavaScript/Objekte/RegExp">Hier lang</a>                
+            </iframe>
+
+            <h2>Bilder unterschiedlicher Größe</h2>
+            <picture>
+                <source srcset="bilder/Wald_gross.jpg" 
+                        media="(min-width: 1300px)" />
+                <source srcset="bilder/Wald_mittel.jpg" 
+                        media="(min-width: 900px)" /> 
+                <source srcset="bilder/Wald_klein.jpg" 
+                        media="(min-width: 600px)" />
+                <img src="bilder/Wald_klein.jpg" alt="kleiner Wald" title="kleiner Wald" />                                                       
+            </picture>
+        </section>         
+    </main>
+
+    <footer>
+        Fußteil
+    </footer>
+</body>
+</html>

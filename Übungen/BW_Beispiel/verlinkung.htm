@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bundeswehr aktuell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/liste.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo1" src="images/logo.png" title="Dienstwappen" alt="Logo" />
+        <img class="logo2" src="images/logo.png" title="Dienstwappen" alt="Logo" />
+        <h1>HTML-Webinar, 22.01.2024 - 26.01.2024</h1>
+        <!-- 
+        <img class="imgbw" src="https://www.bundeswehr.de/resource/image/5728594/landscape_ratio18x7/2000/778/c602babcf47e34df282449af43dad2c5/A0FEF2E67C1E962F24035C44C2F0BF1C/nachgefragt-87-generalleutnant-alfons-mais.jpg"
+        -->
+        <nav>
+            <ul>
+                <li><a href="index.htm">Startseite</a></li>
+                <li><a href="liste.htm">Listen</a></li>
+                <li><a href="verlinkung.htm">Verlinkung</a></li>
+                <li><a href="formular.htm">Formular</a></li>
+                <li><a href="media.htm">Media</a></li>
+                <li><a href="https://www.bundeswehr.de/de/" target="kit">Bundeswehr</a></li>                                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="oben">Verschiedene Verlinkungen / Verzweigungen</h1>
+
+        <div>
+            <a href="https://www.bundeswehr.de/de/">Bundeswehr</a> |
+            <a href="liste.htm">Zur Liste</a> | 
+            <a href="https://www.bundeswehr.de/de/" target="kit">Bundeswehr, KIT-Fenster</a> |
+            <a href="liste.htm" target="kit">Zur Liste. KIT-Fenster</a> | 
+            <a href="https://www.bundeswehr.de/de/" target="_blank">Bundeswehr, blank</a> |
+        </div>
+        <div>
+            <a href="#ol_list">Sortierte Liste</a> |
+            <a href="#etab">Einfache Tabelle</a> |
+            <a href="#dtab">Tabelle Details</a> |
+            <a href="liste.htm#zellverbund" target="kit">Zur Liste. KIT-Fenster</a>
+        </div>
+        <section>
+            <h2>Unsortierte Liste - ul</h2>
+            <p>Einkaufsliste</p>
+            <ul>
+                <li>Brot</li>
+                <li>Butter</li>
+                <li>Wurst:
+                     <ul>
+                         <li>Teewurst</li>
+                         <li>Leberwurst</li>
+                         <li>Salami</li>
+                         <li>Blutwurst</li>
+                     </ul>  
+                </li>
+                <li>Wein</li>
+                <li>Wasser</li>
+            </ul>
+        </section>
+
+        <section>
+            <a name="ol_list"></a> <!-- alte Variante, abgelöst durch ID-System -->
+            <h2>Sortierte Liste - ol</h2>
+            <p>Aufbauanleitung</p>
+            <ol start="8">
+                <li>Auspacken</li>
+                <li>Teile sortieren</li>
+                <li>Bodenplatte montieren
+                    <ol start="14" reversed="reversed">
+                        <li>Holzzapfen einsetzen</li>
+                        <li>Verschraubung einsetzen</li>
+                        <li>Elemente verschrauben</li>
+                    </ol>
+                </li>
+                <li>Seitenwand links montieren</li>
+                <li>Seitenwand recht montieren</li>
+            </ol>
+            <a href="#oben">Nach oben</a>
+        </section>
+
+        <section>
+            <h2>Beschreibungsliste - dl</h2>
+            <dl>
+                <dt>HTML</dt>
+                    <dd>HyperTextMarkupLanguage</dd>
+                <dt>JS</dt>
+                    <dd>JavaScript</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2 id="etab">Einfache Tabelle</h2>
+            <!-- Im Entwurf sind einfache Rahmenlinien hilfreich border="1"-->
+            <table>
+                <tr>
+                    <td>Zelle 1</td>
+                    <td>Zelle 2</td>
+                    <td>Zelle 3</td>
+                    <td>Zelle 4</td>
+                    <td>Zelle 5</td>
+                </tr>
+                <tr>
+                    <td>Zelle 11</td>
+                    <td>Zelle 12</td>
+                    <td>Zelle 13</td>
+                    <td>Zelle 14</td>
+                    <td>Zelle 15</td>
+                </tr>
+                <tr>
+                    <td>Zelle 21</td>
+                    <td>Zelle 22</td>
+                    <td>Zelle 23</td>
+                    <td>Zelle 24</td>
+                    <td>Zelle 25</td>
+                </tr>          
+                <tr>
+                    <td>Zelle 31</td>
+                    <td>Zelle 32</td>
+                    <td>Zelle 33</td>
+                    <td>Zelle 34</td>
+                    <td>Zelle 35</td>
+                </tr>
+                <tr>
+                    <td>Zelle 41</td>
+                    <td>Zelle 42</td>
+                    <td>Zelle 43</td>
+                    <td>Zelle 44</td>
+                    <td>Zelle 45</td>
+                </tr>                                                      
+            </table>
+        </section>
+
+        <section>
+                <h2>Tabelle mit Verbindungen in Zeile/Spalte</h2>
+                <!-- Im Entwurf sind einfache Rahmenlinien hilfreich border="1"-->
+                <table>
+                    <tr>
+                        <td>Zelle 1</td>
+                        <td colspan="3">Zelle 2-4</td>
+                        <!-- 
+                        <td>Zelle 3</td>
+                        <td>Zelle 4</td>
+                        -->
+                        <td>Zelle 5</td>
+                    </tr>
+                    <tr>
+                        <td>Zelle 11</td>
+                        <td>Zelle 12</td>
+                        <td>Zelle 13</td>
+                        <td>Zelle 14</td>
+                        <td>Zelle 15</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Zelle 21,31</td>
+                        <td>Zelle 22</td>
+                        <td colspan="2" rowspan="3">Zelle 23, 24,<br/> 33, 34, 43, 44</td>
+                        <!-- <td>Zelle 24</td> -->
+                        <td>Zelle 25</td>
+                    </tr>          
+                    <tr>
+                        <!-- <td>Zelle 31</td> -->
+                        <td>Zelle 32</td>
+                        <!-- <td>Zelle 33</td>
+                        <td>Zelle 34</td> -->
+                        <td>Zelle 35</td>
+                    </tr>
+                    <tr>
+                        <td>Zelle 41</td>
+                        <td>Zelle 42</td>
+                        <!-- <td>Zelle 43</td>
+                        <td>Zelle 44</td> -->
+                        <td>Zelle 45</td>
+                    </tr>                                                      
+                </table>
+                <a href="#oben"><img src="images/pfeil_nach_oben.png" width="50" height="50" /></a>
+            </section> 
+
+            <section>
+                    <h2 id="dtab">Tabelle mit Details</h2>
+                    <!-- Im Entwurf sind einfache Rahmenlinien hilfreich border="1"-->
+                    <table>
+                        <caption>Überschrift für die Tabellenstruktur</caption>
+                        <thead>
+                        <tr>
+                            <td>Zelle 1</td>
+                            <td>Zelle 2</td>
+                            <td>Zelle 3</td>
+                            <td>Zelle 4</td>
+                            <td>Zelle 5</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>Zelle 11</th>
+                            <th>Zelle 12</th>
+                            <th>Zelle 13</th>
+                            <th>Zelle 14</th>
+                            <th>Zelle 15</th>
+                        </tr>
+                        <tr>
+                            <td>Zelle 21</td>
+                            <td>Zelle 22</td>
+                            <td>Zelle 23</td>
+                            <td>Zelle 24</td>
+                            <td>Zelle 25</td>
+                        </tr>          
+                        <tr>
+                            <td>Zelle 31</td>
+                            <td>Zelle 32</td>
+                            <td>Zelle 33</td>
+                            <td>Zelle 34</td>
+                            <td>Zelle 35</td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <td>Zelle 41</td>
+                            <td>Zelle 42</td>
+                            <td>Zelle 43</td>
+                            <td>Zelle 44</td>
+                            <td>Zelle 45</td>
+                        </tr>
+                        </tfoot>                                                      
+                    </table>
+                    <a href="#oben"><button>Nach oben</button></a>
+                </section> 
+
+         
+    </main>
+
+    <footer>
+        Fußteil
+    </footer>
+</body>
+</html>

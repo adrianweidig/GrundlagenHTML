@@ -1,0 +1,89 @@
+section {
+    width: 85%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 3px dotted rgb(20,20, 150);
+    font-size: 1.2rem;
+}
+section ul{
+    margin: 10px 50px;
+    font-size: inherit;
+    list-style-type: circle;
+}
+section ul ul{
+    margin: 5px 20px;
+    /*
+    list-style-type: square; */
+    list-style-image: url("../images/g15.png");
+}
+section p{
+    font-size: inherit;
+}
+section ol{
+    margin: 10px 50px;
+    font-size: inherit;
+    list-style-type: decimal-leading-zero;   
+}
+section ol ol{
+    list-style-type: lower-roman;
+}
+setcion dl{
+    margin: 10px 50px;
+}
+section dt {
+    font-weight: bolder;
+    color: rgb(180,20,20);
+    margin-top: 1rem;
+}
+section dd{
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+section table{
+    border: 1px solid rgb(20,20, 150);
+    width: 450px;
+    margin: 10px auto;
+    border-collapse: separate; /* collapse */
+    border-spacing: 10px; /* 0 */
+    /* Rahmenlinien der Zellen einzeln oder 
+    zusammenfallend */
+}
+td, th {
+    border: 1px solid rgb(240,120, 150);   
+}
+th {
+    color: rgb(180,20,20);
+}
+thead {
+    background-color: rgb(240, 240,40);
+    color: rgb(20,20, 150);
+}
+tbody {
+    background-color: royalblue;
+}
+
+tfoot {
+    background-color: rgb(20, 240, 20);
+}
+
+section table table{
+    width: auto;
+}
+
+/* ------------ CSS für die Verlinkung ---- */
+div {
+    width: 70%;
+    padding: 2rem;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(240, 240,40);
+    border: 3px dashed rgb(20,20, 150);
+}
+button {
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(240, 240,40);
+    color: rgb(20,20, 150);
+}

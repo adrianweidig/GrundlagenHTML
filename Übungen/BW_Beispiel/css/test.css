@@ -1,0 +1,31 @@
+section {
+    background-color: olive;
+    color: orange;
+}
+section>h1, span{
+    text-decoration: underline;
+    color: red;
+}
+/*
+article:nth-of-type(1)>p:nth-of-type(1) {
+    background-color: yellow;
+}
+article>p:nth-of-type(2) {
+    background-color: orange;
+}
+article>p:nth-of-type(3) {
+    background-color: lightskyblue;
+}
+*/
+.class1 {
+    background-color: yellow;
+}
+.class2 {
+    background-color: orange;
+}
+.class3 {
+    background-color: lightskyblue;
+}
+#nummer1 {
+    color:red;
+}

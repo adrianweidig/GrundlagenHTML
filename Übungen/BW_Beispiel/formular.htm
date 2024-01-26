@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bundeswehr aktuell</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/formular.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <img class="logo1" src="images/logo.png" title="Dienstwappen" alt="Logo" />
+        <img class="logo2" src="images/logo.png" title="Dienstwappen" alt="Logo" />
+        <h1>HTML-Webinar, 22.01.2024 - 26.01.2024</h1>
+        <!-- 
+        <img class="imgbw" src="https://www.bundeswehr.de/resource/image/5728594/landscape_ratio18x7/2000/778/c602babcf47e34df282449af43dad2c5/A0FEF2E67C1E962F24035C44C2F0BF1C/nachgefragt-87-generalleutnant-alfons-mais.jpg"
+        -->
+        <nav>
+            <ul>
+                <li><a href="index.htm">Startseite</a></li>
+                <li><a href="liste.htm">Listen</a></li>
+                <li><a href="verlinkung.htm">Verlinkung</a></li>
+                <li><a href="formular.htm">Formular</a></li>
+                <li><a href="media.htm">Media</a></li>
+                <li><a href="https://www.bundeswehr.de/de/" target="kit">Bundeswehr</a></li>                                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Eingabemöglichkeiten im Formular</h1>
+
+        <section>
+            <h2>Ihr Kontakt zu uns...</h2>
+            <!-- 
+            <form name="bw" id="bw" action="#" method="POST" enctype="multipart/form-data" onsubmit="return false">
+            -->   
+            <form name="bw" id="bw" action="mailto:info@gmx.de" enctype="text/plain">
+             <!-- action="antwort.php" method="GET" => antwort.php?name="Weise"&vorname="Frank" -->   
+             <!-- Bei einem Upload ist method="POST" verpflichtend
+                  und beim Upload enctype="multipart/form-data" -->
+             <!-- onsubmit="return flase" verhindert das Versenden von einem Formular-->
+             <!-- Alternativ: <label><input /></label> -->
+
+             <label for="nachname">Name<sup>*</sup></label>
+             <input id="nachname" type="text" name="name" value="" tabindex="1" 
+                    placeholder="Mustermann" maxlength="32" required="required" /><br/>
+             <!-- Vorbelegung von value mit php: value="<?php echo $name;"  -->
+
+             <label for="pwd">Paßwort</label>
+             <input id="pwd" type="password" name="password" value="" maxlength="32" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" tabindex="2" /><br/>
+            <!-- Buch Kapitel 10, Seite 117 -->
+
+             <label for="email">E-Mail</label>
+             <input id="email" type="email" value="muster@bw.de"  tabindex="2" name="email"
+                    readonly="readonly" /><br/>
+
+            <label for="konfektion">Konfektionsgröße</label>
+            <input id="konfektion" name="konfektion" type="number" min="30" max="60" step="0.5"><br/>
+
+            <label for="gebdat">Geburtsdatum</label>
+            <input id="gebdat" name="gebdat" type="date" value="" min="1964-01-01" max="2006-01-01" /><br/>
+
+            <label for="farbe">Fahrzeugfarbe</label>
+            <input id="farbe" name="farbe" type="color" value=""
+                   onchange="color.value = farbe.value" />
+            <input id="color" value="" type="text" 
+                   onchange="farbe.value = color.value"/> <br/>
+                   <!-- $farbcode = $_POST['farbe']-->
+
+            <label for="dzeit">Dienstzeit</label>
+            <input id="dzeit" name="dzeit" type="range" min="2" max="30" value=""
+                   oninput="ausgabe.value = dzeit.value" />
+            <output id="ausgabe" value="" type="text"></output> <br/>
+
+            <label for="foto">Foto</label>
+            <input id="foto" name="anlage[]" value="" type="file" 
+                   multiple="multiple" accept="image/*"/><br/>
+            <!--
+                Wenn mehrere Dateien geladen werden sollen, muss der Name, hier
+                anlage, als Array, hier als anlage[] gekennzeichnet werden -->
+
+            <fieldset> 
+            <legend>Geschlecht</legend>   
+            <label for="mann">Männlich</label>
+            <input id="mann" type="radio" name="gesch" value="mann" /><br/>
+            <label for="frau">Weiblich</label> 
+            <input id="frau" type="radio" name="gesch" value="frau" /><br/>
+            <!-- bei type="radio" MUSS der name, hier "gesch" gleich sein -->
+            </fieldset> 
+
+            <fieldset> 
+            <legend>IT-Kurse</legend>
+            <label for="html">HTML</label>
+            <input id="html" type="checkbox" value="8505" name="kurse[]" /><br/>
+            <label for="css">CSS</label>
+            <input id="css" type="checkbox" value="8507" name="kurse[]" /><br/>
+            <label for="js">JavaScript</label>
+            <input id="js" type="checkbox" value="8506" name="kurse[]" /><br/>
+            </fieldset>
+
+            <label for="auto">Kfz-Typ</label>
+            <select id="auto" name="auto" size="1">
+                <option value="00">Bitte auswählen...</option>
+                <optgroup label="VW-Modelle">
+                <option value="01">VW-Golf</option>
+                <option value="02">VW-Tiguan</option>                
+                <option value="03">VW-Passat</option>                
+                <option value="04">VW-ID3</option>
+                </optgroup>
+                <optgroup label="Audi-Marke">
+                <option value="05">Audi A4</option>                   
+                <option value="06">Audi A6</option>                
+                </optgroup> 
+                <optgroup label="BMW-Modelle">
+                <option value="07">BMW 320</option>                   
+                <option value="08">BMW 530</option>                
+                </optgroup>                                
+            </select><br/>
+
+            <label for="notizen">Notizen</label>
+            <textarea id="notizen" name="notizen">Mustertext...</textarea><br/>
+
+            <!-- "alte" Form -->
+            <input class="button" type="submit" name="Versenden" value="Forward" /><br/>
+            <input class="button" type="reset" name="Zurücksetzen" value="Back" /><br/>
+
+            <!-- "neuere" Form -->
+            <button class="button" type="submit" name="Insert">Los geht's, No.1</button><br/>
+            <button class="button" type="submit" name="Update">Los geht's, No.1</button><br/>
+            <button class="button" type="reset" name="Reset">Zurücksetzen</button>
+            </form>
+        </section>         
+    </main>
+
+    <footer>
+        Fußteil
+    </footer>
+</body>
+</html>

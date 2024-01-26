@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, main, footer {
+    background-color: rgb(180,180,180);
+    /* im Entwurfsmodus ist eine
+    Höhe, später wieder entfernt
+    hilfreich 
+    height: 200px;*/
+    width: 75%;
+    min-width: 900px;
+    max-width: 1300px;
+    margin: 10px auto;
+    /* nur für den IE */
+    display: block;
+    overflow: auto;
+}
+
+header h1{
+    font-size: 2.3rem;
+    color: rgb(255,0,0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: -75px;
+    margin-bottom: 75px;
+}
+.logo1 {
+    margin: 20px 0 0 20px;
+}
+.logo2 {
+    margin: 20px 0 0 calc(100% - 220px - 40px);
+    /* Bei calc jeweils ein Leerzeichen vor und nach
+       dem Rechenoperator */
+}
+
+main h1, main h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px auto;
+    /*
+    text-decoration: underline;
+    es wird nur der Text unterstrichen,
+    es soll aber ein breiterer Bereich
+    mit einer Linie versehen werden
+    */
+    border-bottom: 1px solid rgb(80,80,80);
+    padding: 10px;
+    width: 70%;
+}
+main h2 {
+    font-size: 1.5rem;
+}
+article {
+    background-color: rgb(200,200,0);
+    width: calc(33% - 20px);
+    height: 400px;
+    display: inline-block;
+    overflow: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+main figure img {
+    width: 100%;
+}
+main figure {
+    margin-inline-end: 0;
+}
+main figure figcaption{
+    padding: 1rem 1rem 1rem 1.5rem;
+    background-color: rgba(100,100,100,0.7);
+    /* führt nicht zum Ziel
+    margin-top: -100px;
+    es fehlt die HG-Farbe */
+    position: relative;
+    margin-top: -70px;
+    color: rgb(200,200,240);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+article p {
+    margin: 0.8rem 0;
+    text-align: justify;
+    hyphens: auto; /* Silbentrennung */
+}
+/* für Bild von BW-Webseite 
+.imgbw {
+    height: 100%;
+}
+*/

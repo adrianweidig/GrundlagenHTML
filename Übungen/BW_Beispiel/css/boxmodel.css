@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.special {
+    color: red;
+    text-decoration: underline;
+    height: 100px;
+    width: 300px;
+}
+section {
+    background-color: beige;
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+    overflow: auto;
+    margin: 50px auto;
+}
+section h2{
+    border: 1px solid darkblue; 
+    height: 100px;
+    width: 300px;
+}
+article {
+    background-color: aqua;
+    height: 30%;
+    width: 680px;
+    margin: 10px 50px;
+    padding: 10px;
+    border: 2px dashed darkblue;
+}
+b {
+    background-color: lawngreen;
+    height: 100px;
+    width: 300px;
+}
+p {
+    text-align: justify;
+}
