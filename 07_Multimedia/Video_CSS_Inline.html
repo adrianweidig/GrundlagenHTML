@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-Einbindung in HTML mit Inline CSS</title>
+    <style>
+        /* Gemeinsame Stile für die Videoabschnitte */
+        .video-section {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Stile für den YouTube-Abschnitt */
+        #videoSection1 {
+            border: 2px solid #0066cc;
+        }
+
+        /* Stile für den lokalen Video-Abschnitt */
+        #videoSection2 {
+            border: 2px solid #004080;
+        }
+
+        /* Responsive Stile für Videos */
+        iframe, video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Abschnitt 1: Einbinden eines YouTube-Videos mit Inline CSS -->
+<section id="videoSection1" class="video-section">
+    <h1 style="color: #0066cc;">Abschnitt 1: Einbinden eines YouTube-Videos</h1>
+    <p style="font-style: italic;">
+        Hier wird ein YouTube-Video eingebunden.
+    </p>
+    <!-- Hier wird ein YouTube-Video mit der ID "VsWgDoQzNVo" eingebunden -->
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VsWgDoQzNVo" allowfullscreen></iframe>
+</section>
+
+<!-- Abschnitt 2: Einbinden eines lokalen Videos mit Inline CSS -->
+<section id="videoSection2" class="video-section">
+    <h1 style="color: #004080;">Abschnitt 2: Einbinden eines lokalen Videos</h1>
+    <p style="font-style: italic;">
+        Hier wird ein lokales Video eingebunden. Dieses Video zeigt entspannende Regentropfen.
+    </p>
+    <!-- Hier wird ein lokales Video mit dem Pfad "../Ressourcen/Video/Raindrops_Videvo.mp4" eingebunden -->
+    <video width="560" height="315" controls>
+        <source src="../Ressourcen/Video/Raindrops_Videvo.mp4" type="video/mp4">
+        Dein Browser unterstützt das Video-Element nicht.
+    </video>
+</section>
+
+</body>
+</html>

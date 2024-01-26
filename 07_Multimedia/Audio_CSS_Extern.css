@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #232323;
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+}
+
+/* Stile für die gesamte Audio-Sektion */
+.audio-section {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    color: #eee;
+}
+
+p {
+    color: #aaa;
+}
+
+/* Container für das Audio-Element */
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stile für das Audio-Element */
+audio {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Stile für das Audio-Element mit speziellen Stilen */
+.audio-style {
+    background-color: #444;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    color: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover-Stil für das Audio-Element */
+.audio-style:hover {
+    background-color: #555;
+}

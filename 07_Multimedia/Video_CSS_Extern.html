@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video-Einbindung in HTML mit externem CSS</title>
+    <link rel="stylesheet" href="Video_CSS_Extern.css">
+</head>
+<body>
+
+<!-- Abschnitt 1: Einbinden eines YouTube-Videos mit externem CSS -->
+<section id="videoSection1" class="video-section">
+    <h1>Abschnitt 1: Einbinden eines YouTube-Videos</h1>
+    <p>
+        Hier wird ein YouTube-Video eingebunden.
+    </p>
+    <!-- Hier wird ein YouTube-Video mit der ID "VsWgDoQzNVo" eingebunden -->
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=VsWgDoQzNVo" allowfullscreen></iframe>
+</section>
+
+<!-- Abschnitt 2: Einbinden eines lokalen Videos mit externem CSS -->
+<section id="videoSection2" class="video-section">
+    <h1>Abschnitt 2: Einbinden eines lokalen Videos</h1>
+    <p>
+        Hier wird ein lokales Video eingebunden. Dieses Video zeigt entspannende Regentropfen.
+    </p>
+    <!-- Hier wird ein lokales Video mit dem Pfad "../Ressourcen/Video/Raindrops_Videvo.mp4" eingebunden -->
+    <video width="560" height="315" controls>
+        <source src="../Ressourcen/Video/Raindrops_Videvo.mp4" type="video/mp4">
+        Dein Browser unterstützt das Video-Element nicht.
+    </video>
+</section>
+
+</body>
+</html>
