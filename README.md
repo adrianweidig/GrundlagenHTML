@@ -1,4 +1,5 @@
-# HTML/CSS Grundlagenkurs (Ab 26.01.2024 nicht mehr weiter bearbeitet)
+# HTML/CSS Grundlagenkurs 
+# (Ab 26.01.2024 nicht mehr weiter bearbeitet)
 
 Git-Repo dient zum Abgleich eigener Lösungen und zukünftiger Wiederholung und persönlicher Retrospektive.
 
